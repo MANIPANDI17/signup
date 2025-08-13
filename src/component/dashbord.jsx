@@ -15,7 +15,7 @@ function Dashboard() {
 
   const logout = () => {
     localStorage.removeItem("token");
-    window.location = "/Signup";
+    window.location = "/login";
   };
 
   return (
@@ -29,3 +29,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
